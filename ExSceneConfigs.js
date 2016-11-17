@@ -209,7 +209,7 @@ let ExSceneConfigs = {
     ...Navigator.SceneConfigs.PushFromRight,
     animationInterpolators: {
       into: buildStyleInterpolator(FromTheRight),
-      out: buildStyleInterpolator(ToTheLeft),
+      out: buildStyleInterpolator(Still),
     },
   },
   ZoomFromFront: {
